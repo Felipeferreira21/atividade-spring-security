@@ -1,0 +1,10 @@
+@baseUrl = https://8080-felipeferre-atividadesp-u7y2vyvn8pa.ws-us116.gitpod.io
+
+###
+POST {{baseUrl}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario": "usuario",
+    "senha": "user"
+}
